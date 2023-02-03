@@ -14,7 +14,7 @@ public class Student {
 
     }
 
-    public static int NumberGroup(int[] arr) {
+    public static int numberGroup(int[] arr) {
         int max = 0;
         arr[0] = max;
         for (int i : arr) {

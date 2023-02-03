@@ -1,8 +1,8 @@
 public class Rectangle {
 
-    public int width;
+    private int width;
 
-    public int length;
+    private int length;
 
     public Rectangle(int width, int length) {
         this.width = width;
@@ -10,12 +10,12 @@ public class Rectangle {
     }
 
 
-    public void perimeter(Rectangle rectangle) {
+    public void perimeter(int width, int length) {
         System.out.println("Периметр прямоугольника" + " = " + (width + length) * 2);
     }
 
 
-    public void square(Rectangle rectangle) {
+    public void square(int width, int length) {
         System.out.println("Площадь прямоугольника " + " = " + width * length);
 
     }
